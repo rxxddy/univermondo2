@@ -71,7 +71,7 @@ const Contacts = () => {
       !formData.message.trim() &&
       !formData.additionalMessage.trim()
     ) {
-      alert('Пожалуйста, заполните хотя бы одно поле.');
+      alert('Please fill in at least one field.');
       return;
     }
 
